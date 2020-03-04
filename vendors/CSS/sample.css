@@ -1,0 +1,130 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  padding-bottom: 0px;
+  margin: 0px;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images-master/header.jpg");
+  background-attachment: fixed;
+}
+/* ここから */
+
+
+header {
+ height: 64px;
+ position: absolute;
+ top: 0px;
+ background-color: #333;
+ width: 100%;
+
+}
+
+header ul  {
+  overflow: hidden;
+  list-style: none;
+  margin: 0 auto;
+}
+
+header li  {
+  display: inline-block;
+  padding: 30px 50px 10px 20px;
+}
+
+/*  この下に書くのはヘッダーのリストを左右に分ける　*/
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+
+
+header li a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* ここまでがheader部分の実装 */
+.main-header img {
+/* main画像（白い「Achieve」の文字の画像）部分の実装 */
+
+
+}
+
+.dekaigazou {
+  width: 100%;
+
+}
+
+.about {
+/* About Achieve部分の実装 */
+
+
+/*  width: auto; */
+}
+
+.relative {
+
+}
+
+.absolute {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 200px;
+  width: 350px;
+  height: auto;
+}
+/* ここから */
+.function {
+  background-color: #dee1e3;
+
+}
+.function-images {
+}
+.function-image {
+  display: inline-block;
+  padding:  40px;
+  height: 100px;
+}
+
+.kuhaku{
+  color: #dee1e3;
+  margin: 0px;
+}
+
+.sapo{
+  color: #dee1e3;
+  padding: 40px;
+}
+
+.setumei {
+  padding-bottom: 50px;
+}
+
+section h1 {
+  margin-top: 20px;
+
+}
+/* ここまでがfunction部分の実装 */
+footer {
+/* footer部分の実装 */
+  height: 90px;
+  position: absolute;
+  bottom: : 0px;
+  background-color: #1c3240;
+  width: 100%;
+  color: white;
+}
